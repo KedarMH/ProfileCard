@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-box{
+    
+    background-image: radial-gradient( circle 860px at 11.8% 33.5%,  rgba(240,30,92,1) 0%, rgba(244,49,74,1) 30.5%, rgba(249,75,37,1) 56.1%, rgba(250,88,19,1) 75.6%, rgba(253,102,2,1) 100.2% );
+    text-align: center;
+    padding: 5px 90px ;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+
+.menu-icon{
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.setting-icon{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient( 109.6deg,  rgba(247,253,166,1) 11.2%, rgba(128,255,221,1) 57.8%, rgba(255,128,249,1) 85.9% );
+    padding:6px;
+    margin-top: 40px;
+
+}
+.profile-bottom{
+    background: #fff;
+    color: #999;
+    padding: 60px 0;
+    margin-right: -90px;
+    margin-left: -90px;
+    margin-bottom: -40px;
+    margin-top: -10px;
+    border-radius: 20px;
+
+}
+.profile-bottom img{
+    width: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+/* .profile-box button{
+    background: #fff;
+    color: #ff574a;
+    border:none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(244, 67, 54, 0.5);
+    padding: 15px 60px;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font: 16px;
+} */
+
+.profile-box h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0%;
+}
+
+
+.social-media img{
+    width: 20px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
+
+.button-62 {
+    background-image: radial-gradient( circle farthest-corner at 14.2% 24%,  rgba(239,61,78,1) 0%, rgba(239,61,78,0.81) 51.8%, rgba(239,61,78,0.63) 84.6% );
+    border: none;
+    border-radius: 30px;
+    color:#fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 3;
+    outline: transparent;
+    padding: 0px 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    margin-bottom: -50px;
+  }
+  
+  .button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
+  
+  .button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+  }
